@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/libs/normalize.css">
+    <link rel="stylesheet" href="css/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/libs/fancybox.css">
+    <link rel="stylesheet" href="css/libs/animate.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header id="header" class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <nav class="header-nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            О предприятии
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Продукция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Документация
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header-phone" href="tel:+7 (846) 975-35-13">
+                +7 (846) 975-35-13
+            </a>
+            <button id="nav-toggle" class="btn nav-toggle show-md">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+    <main class="content" id="content">
+        <div class="wrap">
+            <section class="section intro" style="background-image: url('img/intro-bg.jpg');">
+                <div class="container">
+                    <div class="inner">
+                        <strong class="top-text wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                            Позвольте себе лучшее.
+                        </strong>
+                        <h1 class="title wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                            Наша мука - основа вкуса и качества.
+                        </h1>
+                        <div class="description wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
+                            <p>
+                                Мы производим хлебопекарную муку высшего, 1 и 2 сортов и отруби, сырьём для изготовления которой служит отборное российское зерно.
+                            </p>
+                            <p>
+                                В процессе производства не используются различные добавки и примеси. Наличие соответствующих сертификатов и документов подтверждает качество нашей продукции.
+                            </p>
+                        </div>
+                        <div class="links wow animate__animated animate__fadeIn" data-wow-delay=".9s">
+                            <button class="btn muka-btn orange open-modal application xs-stretch" data-id="application">
+                                Оставить заявку
+                            </button>
+                            <a href="tel:+7 (846) 975-35-13" class="phone">
+                                +7 (846) 975-35-13
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-gap products">
+                <div class="container">
+                    <header class="section-header center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <h2>
+                            Наша продукция
+                        </h2>
+                    </header>
+                    <div class="inner">
+                        <div class="product wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+                            <img src="img/product-1.png" alt="" loading="lazy">
+                            <div class="info">
+                                <strong class="name">
+                                    Мука пшеничная хлебопекарная высшего сорта
+                                </strong>
+                                <div class="info-item">
+                                    <span>ГОСТ</span> <br> 26574-2017
+                                </div>
+                                <div class="info-item">
+                                    <span>Фасовка:</span> <br> Мешки п/п 50 кг
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
+                            <img src="img/product-2.png" alt="" loading="lazy">
+                            <div class="info">
+                                <strong class="name">
+                                    Мука пшеничная хлебопекарная первого сорта
+                                </strong>
+                                <div class="info-item">
+                                    <span>ГОСТ</span> <br> 26574-2017
+                                </div>
+                                <div class="info-item">
+                                    <span>Фасовка:</span> <br> Мешки п/п 50 кг
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product wow animate__animated animate__fadeInLeft" data-wow-delay=".7s">
+                            <img src="img/product-3.png" alt="" loading="lazy">
+                            <div class="info">
+                                <strong class="name">
+                                    Мука пшеничная хлебопекарная второго сорта
+                                </strong>
+                                <div class="info-item">
+                                    <span>ГОСТ</span> <br> 26574-2017
+                                </div>
+                                <div class="info-item">
+                                    <span>Фасовка:</span> <br> Мешки п/п 50 кг
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product wow animate__animated animate__fadeInRight" data-wow-delay=".9s">
+                            <img src="img/product-4.png" alt="" loading="lazy">
+                            <div class="info">
+                                <strong class="name">
+                                    Отруби пшеничные
+                                </strong>
+                                <div class="info-item">
+                                    <span>ГОСТ</span> <br> 7169-2017
+                                </div>
+                                <div class="info-item">
+                                    <span>Фасовка:</span> <br> Мешок п/п 25 кг
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-gap features">
+                <div class="container">
+                    <div class="inner">
+                        <div class="feature wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                            <p>
+                                Пшеничная мука высшего сорта богата витаминами группы В, которые важны для восстановительных процессов и работы нервной системы.
+                            </p>
+                        </div>
+                        <div class="feature wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                            <p>
+                                Обладает высокими хлебопекарными свойствами и подходит для домашней выпечки и кондитерских изделий.
+                            </p>
+                        </div>
+                        <div class="feature wow animate__animated animate__fadeIn" data-wow-delay=".7s">
+                            <p>
+                                Содержит витамин Р, который регулирует окислительные процессы, и полезна для работы пищеварительной системы.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <img class="image-section" src="img/image-section-bg.jpg" alt="" loading="lazy">
+            <section class="section section-gap benefits">
+                <div class="container">
+                    <header class="section-header center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <h2>
+                            Наши преимущества
+                        </h2>
+                    </header>
+                    <div class="inner">
+                        <div class="items">
+                            <div class="benefit wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                                <span class="icon" style="background-image: url(img/benefit-1.svg);"></span>
+                                <div class="title">
+                                    Мощь
+                                </div>
+                                <div class="subtitle">
+                                    Складские мощности объёмом 3 тысячи тонн
+                                </div>
+                            </div>
+                            <div class="benefit wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                                <span class="icon" style="background-image: url(img/benefit-2.svg);"></span>
+                                <div class="title">
+                                    Качество
+                                </div>
+                                <div class="subtitle">
+                                    Собственная испытательная лаборатория
+                                </div>
+                            </div>
+                            <div class="benefit wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
+                                <span class="icon" style="background-image: url(img/benefit-3.svg);"></span>
+                                <div class="title">
+                                    Опыт
+                                </div>
+                                <div class="subtitle">
+                                    Многовековые традиции мукомольного производства
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/benefit-img.png" alt="" class="benefits-img wow animate__animated animate__fadeIn" data-wow-delay=".9s" loading="lazy">
+                        <div class="items">
+                            <div class="benefit right wow animate__animated animate__fadeInUp" data-wow-delay=".9s">
+                                <span class="icon" style="background-image: url(img/benefit-4.svg);"></span>
+                                <div class="title">
+                                    Выгода
+                                </div>
+                                <div class="subtitle">
+                                    Лояльная ценовая политика
+                                </div>
+                            </div>
+                            <div class="benefit right wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                                <span class="icon" style="background-image: url(img/benefit-5.svg);"></span>
+                                <div class="title">
+                                    Надежность
+                                </div>
+                                <div class="subtitle">
+                                    Стабильно высокое качество продукции
+                                </div>
+                            </div>
+                            <div class="benefit right wow animate__animated animate__fadeInUp" data-wow-delay="1.2s">
+                                <span class="icon" style="background-image: url(img/benefit-6.svg);"></span>
+                                <div class="title">
+                                    Безопасность
+                                </div>
+                                <div class="subtitle">
+                                    Соблюдение требований охраны труда и промышленной безопасности
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-gap about">
+                <div class="container">
+                    <header class="section-header center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <h2>
+                            О предприятии
+                        </h2>
+                    </header>
+                    <div class="inner">
+                        <div class="items wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                            <img src="img/about-1.jpg" alt="">
+                            <div class="text">
+                                <p>
+                                    С 1999 года Самарский мукомольный завод «Мелькомбинат» производит хлебопекарную муку высшего, 1 и 2 сортов, а также отруби.
+                                </p>
+                                <p>
+                                    Для изготовления нашей продукции мы используем только отборное российское зерно, без использования каких‑либо добавок и примесей.
+                                </p>
+                                <p>
+                                    Мука производится на современном оборудовании турецкого производства.
+                                </p>
+                            </div>
+                            <img class="medium" src="img/about-5.jpg" alt="" loading="lazy">
+                        </div>
+                        <div class="items wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                            <img class="small" src="img/about-2.jpg" alt="">
+                            <div class="text">
+                                <p>
+                                    Используется уникальная технология замачивания пшеницы перед помолом, что позволяет получить высокое качество и белизну без использования химикатов.
+                                </p>
+                            </div>
+                            <img class="medium" src="img/about-4.jpg" alt="" loading="lazy">
+                            <div class="text">
+                                <p>
+                                    Постоянный контроль за качеством исходного сырья и готовой продукции на всех этапах 
+                                    производства осуществляет производственно-технологическая лаборатория.
+                                </p>
+                                <p>
+                                    Для проведения испытаний входящего сырья, промежуточных продуктов и готовой продукции 
+                                    производственно-технологическая лаборатория оснащена современным испытательным 
+                                    оборудованием российского и импортного производства.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="items wow animate__animated animate__fadeIn" data-wow-delay=".7s">
+                            <img src="img/about-3.jpg" alt="">
+                            <div class="text">
+                                <p>
+                                    Наша компания имеет многолетний опыт работы с крупными компаниями, что говорит о высоком уровне нашей продукции и обслуживания. 
+                                </p>
+                                <p>
+                                    Мы высоко ценим каждого клиента поэтому готовы к долгосрочному и взаимовыгодному сотрудничеству.
+                                </p>
+                            </div>
+                            <img class="full" src="img/about-6.jpg" alt="" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-gap delivery">
+                <div class="container">
+                    <header class="section-header center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <h2>
+                            Способы поставки продукции
+                        </h2>
+                    </header>
+                    <div class="inner">
+                        <div class="items">
+                            <div class="step wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+                                <div class="number">
+                                    1
+                                </div>
+                                <div class="info">
+                                    <div class="title">
+                                        Самовывоз
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            Покупатель может самостоятельно забрать товар со склада предприятия.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
+                                <div class="number">
+                                    2
+                                </div>
+                                <div class="info">
+                                    <div class="title">
+                                        Доставка силами предприятия
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            Доставка товара силами предприятия производится на основании заказа покупателя до склада покупателя или указанного покупателем грузополучателя.
+                                        </p>
+                                        <p>
+                                            <strong>Стоимость доставки включена в цену товара.</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step wow animate__animated animate__fadeInLeft" data-wow-delay=".7s">
+                                <div class="number">
+                                    3
+                                </div>
+                                <div class="info">
+                                    <div class="title">
+                                        Доставка наемным транспортом
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            Доставка товара наёмным транспортом производится на основании договора с предприятием до склада покупателя или указанного покупателем грузополучателя.
+                                        </p>
+                                        <p>
+                                            <strong>Стоимость доставки включена в цену товара.</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step wow animate__animated animate__fadeInRight" data-wow-delay=".9s">
+                                <div class="number">
+                                    4
+                                </div>
+                                <div class="info">
+                                    <div class="title">
+                                        Ограничения по доставке
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            Доставка тарной готовой продукции осуществляется от 10 тонн. Продукцию меньшего объёма можно приобрести на условиях самовывоза.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/delivery.png" alt="" class="delivery-img" loading="lazy">
+                        <div class="delivery-bottom">
+                            <ul>
+                                <li>
+                                    Ассортимент, объемы конкретных партий, условия и сроки их поставки согласовывается сторонами.
+                                </li>
+                                <li>
+                                    Отгрузка продукции осуществляется партиями в бестарном виде (автомуковоз) и тарно в мешках п/п.
+                                </li>
+                                <li>
+                                    Отгрузочный терминал имеет возможность производить загрузку любых видов муковозов.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-gap certs">
+                <div class="container">
+                    <header class="section-header center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
+                        <h2>
+                            Документация
+                        </h2>
+                    </header>
+                </div>
+                <div class="inner">
+                    <div class="container certs-slider-container">
+                        <div class="swiper certs-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cert-1.jpg" data-fancybox="certs">
+                                        <img src="img/cert-1.jpg" alt="" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/cert-2.jpg" data-fancybox="certs">
+                                        <img src="img/cert-2.jpg" alt="" loading="lazy">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide horizontal">
+                                    <a href="img/cert-3.jpg" data-fancybox="certs">
+                                        <img src="img/cert-3.jpg" alt="" loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider-nav">
+                                <button class="btn prev certs-nav-button certs-nav-button--prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                                </button>
+                                <button class="btn next certs-nav-button certs-nav-button--next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="certs-bottom">
+                            <p>
+                                Вся наша продукция подлежит обязательной сертификации и имеет все соответствующие сертификаты соответствия Госстандарта России. 
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+    <div class="container">
+        <div class="inner">
+            <div class="item">
+                <div class="title">
+                    Информация
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="#">
+                            О предприятии
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Продукция
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="title">
+                    Документация
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="#">
+                            Протокол первый сорт
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Декларация о соответствии
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Декларация и протокол на отруби
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="title">
+                    Контакты
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="tel:+7 (846) 975-35-13">
+                            +7 (846) 975-35-13
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:muka163@mail.ru">
+                            muka163@mail.ru
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="item address">
+                <div class="title">
+                    Адреса
+                </div>
+                <ul class="list">
+                    <li>
+                        <address>
+                            443061, г. Самара, пос. Кирзавод № 6 строение 21 А.
+                        </address>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <img class="logo" src="img/footer-logo.svg" alt="">
+        </div>
+    </div>
+</footer>
+<div id="application" class="modal application">
+    <div class="modal-inner">
+        <button class="btn modal-close">
+            Закрыть модальное окно
+        </button>
+        <div class="application-form">
+            <h2 class="title">
+                Заказать обратный звонок
+            </h2>
+            <form>
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш e-mail">
+                <textarea placeholder="Ваше сообщение (не обязательно)"></textarea>
+                <button class="btn muka-btn orange form-submit">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/libs/swiper-bundle.min.js"></script>
+<script src="js/libs/fancybox.umd.js"></script>
+<script src="js/libs/wow.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
